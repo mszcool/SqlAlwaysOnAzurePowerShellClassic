@@ -19,7 +19,7 @@ To make use of the script, perform the following steps:
 - Customize the main configuration file `.\Main-ProvisionConfig.psd1` with your subscription data, SQL Databases and SQL Database script names
 - Now Execute the Main Script to start provisioning as shown below
 
-`.\Main-ProvisionCrossRegionAlwaysOn.ps1 -SetupSQLVMs -SetupSQLAG -UploadSetupScripts -ServiceName "mszsqlagustest" -StorageAccountNamePrimaryRegion "mszsqlagusprim" -StorageAccountNameSecondaryRegion "mszsqlagussec" -RegionPrimary "East US" -RegionSecondary "East US 2" -DomainAdminCreds $domainCreds -DomainName "msztest.local" -DomainNameShort "msztest" -Verbose`
+`.\Main-ProvisionCrossRegionAlwaysOn.ps1 -SetupNetwork -SetupADDCForest -SetupSecondaryADDCs -SetupSQLVMs -SetupSQLAG -UploadSetupScripts -ServiceName "mszsqlagustest" -StorageAccountNamePrimaryRegion "mszsqlagusprim" -StorageAccountNameSecondaryRegion "mszsqlagussec" -RegionPrimary "East US" -RegionSecondary "East US 2" -DomainAdminCreds $domainCreds -DomainName "msztest.local" -DomainNameShort "msztest" -Verbose`
 
 Further details on my blog:
 ---------------------------
