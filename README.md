@@ -1,5 +1,5 @@
 # Sql Server AlwaysOn Cross-Region Setup
-# Fully Automated with PowerShell
+# Fully Automated with PowerShell Sample
 
 This end-2-end sample script package (see LICENSE)  provides an end-2-end automated deployment for SQL Server AlwaysOn Availability Groups with Azure Virtual Machines running in two Data Centers (two Regions) for High Availability. The script still makes use of traditional Azure Service Management since we needed something based on released technology at this time for the affected project.
 
