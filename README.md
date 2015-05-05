@@ -3,6 +3,9 @@
 
 This end-2-end sample script package (see LICENSE)  provides an end-2-end automated deployment for SQL Server AlwaysOn Availability Groups with Azure Virtual Machines running in two Data Centers (two Regions) for High Availability. The script still makes use of traditional Azure Service Management since we needed something based on released technology at this time for the affected project.
 
+**Disclaimer:**
+These scripts are provided as SAMPLE CODE under the MIT License (see LICENSE file of this repository). The code is provided As-Is, you can use it at your own risk!
+
 To make use of the script, perform the following steps:
 -------------------------------------------------------
 - Create *.sql database scripts that create or restore your databases from backups or plain T-SQL scripts
